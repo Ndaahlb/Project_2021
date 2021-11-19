@@ -15,8 +15,8 @@ const Auth =() => {
     <Stack.Navigator initialRouteName="PatientLogin"  >
         <Stack.Screen name="Login" component={PatientLogin} 
           options={{ headerShown: false }}/>
-        <Stack.Screen name="Register" component={DoctorRegister} 
-          options={{ headerShown: false}}/>
+//         <Stack.Screen name="Register" component={DoctorRegister} 
+//           options={{ headerShown: false}}/>
       </Stack.Navigator>
   
   );
